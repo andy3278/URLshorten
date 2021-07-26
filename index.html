@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato&display=swap" rel="stylesheet"> 
+    <title>URLshortener</title>
+</head>
+<body>
+    <div class="center stack">
+        <form id="form">
+            <label for="url">URLshortener:</label>
+            <input type="url" id="url" name="url" required>
+            <button>Shorten it</button>
+        </form>
+        <div id="short-url"></div>
+        <pre id="debug"></pre>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

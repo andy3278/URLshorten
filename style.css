@@ -1,0 +1,52 @@
+div {
+    display: block;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+#short-url {
+    font-family: 'Courier Prime', monospace;
+
+}
+
+
+
+input , body{
+    background-color: black;
+    color: antiquewhite;
+    display: inline-block;
+    border: 1px solid antiquewhite;
+    box-shadow: 1px 1px 10px 1px antiquewhite;
+}
+inpupt {
+    margin-right: 0%;
+}
+button {
+    background-color: black;
+    color: antiquewhite;
+    display: inline-block;
+    border: 1px solid antiquewhite;
+    box-shadow: 1px 1px 10px 0px antiquewhite;
+}
+button:hover {
+    color: rgb(147, 233, 50);
+}
+button:active {
+    box-shadow: 0 0 0 0 black;
+    transform: translate(20, 20);
+}
+#debug {
+
+    background-color: gray;
+    display: none; /* remove line to debug */
+
+}
+#debug:empty {
+
+    display: none;
+}
